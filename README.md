@@ -9,3 +9,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT05 Landscpape Setup & Scaling
 * BT06 A Landscaping Process
 * BT07 Upgrading Engine Version
+* BT08 Using Landscape Layers
