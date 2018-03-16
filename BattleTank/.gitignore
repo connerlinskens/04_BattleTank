@@ -1,6 +1,7 @@
 # Unreal Starter Content
 BattleTank/Content/StarterContent/
 *.uasset
+*.umap
 
 # Visual Studio 2015 user specific files
 .vs/
