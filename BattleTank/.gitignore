@@ -1,6 +1,6 @@
 # Unreal Starter Content
-StarterContent/*.umap
-StarterContent/*.uasset
+Content/StarterContent/*.umap
+Content/StarterContent/*.uasset
 
 # Visual Studio 2015 user specific files
 .vs/
