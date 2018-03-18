@@ -27,3 +27,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT23 Creating an AI Controller Class
 * BT24 Get the Player Controller with C++
 * BT25 Add Tick() to PlayerController
+* BT26 Creating an OUT Parameter Method
