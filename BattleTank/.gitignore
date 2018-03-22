@@ -1,6 +1,9 @@
+# Images
+BattleTank\Content\UI\BT17-Firing-M1A1-tank-in-Djibouti.uasset
+
 # Unreal Starter Content
-Content/StarterContent/*.umap
-Content/StarterContent/*.uasset
+Content/StarterContent/*
+Content/StarterContent/*
 
 # Visual Studio 2015 user specific files
 .vs/

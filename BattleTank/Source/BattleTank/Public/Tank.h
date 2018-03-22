@@ -11,7 +11,7 @@ class BATTLETANK_API ATank : public APawn
 {
 	GENERATED_BODY()
 
-public:
+private:
 	// Sets default values for this pawn's properties
 	ATank();
 
@@ -26,6 +26,5 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
-	
+	void AimAt(FVector HitLocation);
 };
