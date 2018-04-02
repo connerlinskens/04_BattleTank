@@ -18,6 +18,9 @@ private:
 
 	UStaticMeshComponent* Barrel = nullptr;
 
+	UPROPERTY(EditAnywhere, Category = Firing)
+	float LaunchSpeed = 100000; // TODO find sensible default
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
