@@ -7,6 +7,7 @@
 #include "TankAimingComponent.generated.h"
 
 // Forward Declaration
+class UTankTurret;
 class UTankBarrel; 
 
 // Holds barrel's properties and Elevate method
@@ -21,7 +22,7 @@ public:
 
 	void SetBarrelReference(UTankBarrel* BarrelToSet);
 
-	// TODO add SetTurretReference
+	void SetTurretReference(UTankTurret* TurretToSet);
 
 public:	
 	void AimAt(FVector HitLocation, float LaunchSpeed);
@@ -29,5 +30,9 @@ public:
 private:
 	UTankBarrel* Barrel = nullptr;
 	
+	UTankTurret* Turret = nullptr;
+
 	void MoveBarrelTowards(FVector AimDirection);
+
+	void MoveTurretTowards(FVector AimDirection);
 };

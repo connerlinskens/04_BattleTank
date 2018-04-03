@@ -7,6 +7,7 @@
 #include "Tank.generated.h" // Put new includes above
 
 // Forward declarations
+class UTankTurret;
 class UTankBarrel; 
 class UTankAimingComponent;
 
@@ -19,7 +20,9 @@ private:
 	// Sets default values for this pawn's properties
 	ATank();
 
-	UStaticMeshComponent* Barrel = nullptr;
+	UTankBarrel* Barrel = nullptr;
+
+	UTankTurret* Turret = nullptr;
 
 	UPROPERTY(EditAnywhere, Category = Firing)
 	float LaunchSpeed = 100000; // TODO find sensible default
@@ -38,4 +41,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, category = Setup)
 	void SetBarrelReference(UTankBarrel* BarrelToSet);
+
+	UFUNCTION(BlueprintCallable, category = Setup)
+	void SetTurretReference(UTankTurret* TurretToSet);
 };

@@ -42,3 +42,5 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT38 BlueprintSpawnableComponent()
 * BT39 Review Our Execution Flow
 * BT40 Reporting a Bug
+* BT41 Using Clamp() to Limit Values
+* BT42 CHALLENGE - Turret Rotation
