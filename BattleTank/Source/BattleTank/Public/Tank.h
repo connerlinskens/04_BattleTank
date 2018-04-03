@@ -25,7 +25,7 @@ private:
 	UTankTurret* Turret = nullptr;
 
 	UPROPERTY(EditAnywhere, Category = Firing)
-	float LaunchSpeed = 100000; // TODO find sensible default
+	float LaunchSpeed = 5000; 
 
 protected:
 	// Called when the game starts or when spawned
