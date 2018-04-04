@@ -45,3 +45,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT41 Using Clamp() to Limit Values
 * BT42 CHALLENGE - Turret Rotation
 * BT43 Setting Up Projectiles
+* BT44 Upgrading Project to 4.19
