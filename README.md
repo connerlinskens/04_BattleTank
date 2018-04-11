@@ -46,3 +46,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT42 CHALLENGE - Turret Rotation
 * BT43 Setting Up Projectiles
 * BT44 Upgrading Project to 4.19
+* BT45 Working Round Awkward Bugs

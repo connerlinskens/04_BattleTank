@@ -3,6 +3,7 @@
 #include "TankTurret.h"
 #include "GameFramework/Actor.h"
 #include "UnrealMathUtility.h"
+#include "Engine/World.h"
 #include "BattleTank.h"
 
 void UTankTurret::Rotate(float RelativeSpeed)
