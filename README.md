@@ -53,3 +53,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT49 UPROPERTY(EditDefaultsOnly)
 * BT50 Adding a Quit Button
 * BT51 Setup Track Throttles
+* BT52 ApplyForceAtLocation() in action
