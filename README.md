@@ -56,3 +56,4 @@ An open-world head-to-head tank fight with simple AI, terrain, and advanced cont
 * BT52 ApplyForceAtLocation() in action
 * BT53 Physics Materials & Friction
 * BT54 Fly-By-Wire Control System
+* BT55 Using BlueprintReadOnly
